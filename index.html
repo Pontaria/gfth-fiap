@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+
+  <!-- links do favicon, css reset(eu gosto de começar do absoluto zero) e do css normal, decidi usar apenas um arquivo css -->
+
+  <link rel="icon" type="image/png" href="./img/gfh-logo.png">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <meta charset="utf-8">
+
+  <title>Games For the Human</title>
+</head>
+
+<body>
+
+  <!-- decidi separar a pagina em um main e outros "stages", assim como em um game -->
+
+  <div class="page-main">
+
+    <!-- start. aqui ficam a logo e o motto do site. -->
+
+    <div class="main-start">
+
+      <div class="items start-logo">
+        <img src="./img/gfh-logo.png" alt="">
+      </div>
+
+      <div class="items start-title">
+        <h1>Games for the Human.</h1>
+        <span class="specialtext">
+          <p>Jogos em prol da saúde.</p>
+        </span>
+      </div>
+
+    </div>
+
+    <!-- stage 1. aqui vem uma explicacao bem breve do site e seu conceito. usei a tag css background para por uma imagem e uma gradiente com alpha sobre ela-->
+
+    <div class="main-stage1">
+
+      <div class="stage1-content">
+        <h2>Uma maneira lúdica de cuidar de si próprio.</h2>
+        <hr>
+        <p>Jogos Eletrônicos por muito tempo foram considerados apenas um passa tempo ou uma maneira de se divertir, entretanto pesquisas recentes indicam que jogos podem ser usados para auxiliar no tratamento de diversas condições médicas, ao mesmo
+          tempo que divertem o paciente. Nossa missão é tornar tais jogos conhecidos para pacientes e organizações médicas.</p>
+
+        <!-- truquezinho usando span, essencialmente uso o span como uma mini-div -->
+
+        <span class="content-special">
+          <p>Games são uma maneira mais eficaz de se comunicar com o usuário justamente por sua imersão, provando-se uma ferramenta valiosa no tratamento de doenças como ansiedade e depressão.</p>
+        </span>
+
+      </div>
+
+    </div>
+
+    <!-- stage 2. aqui que o site realmente começa, no site final esta parte agiria como um catálogo de games indies que tratam da saude mental e física, aonde o usuario poderia entrar e comprar. -->
+
+    <div class="main-stage2">
+
+      <div class="stage2-header">
+        <h2>Nossas recomendações</h2>
+        <hr>
+      </div>
+
+      <div class="stage2-itemwrapper">
+
+        <!-- novamente usando uma gradiente com alpha sobreposta a um background para criar este efeito, porém desta vez adicionei um hover com uma gradiente mais fraca, destacando o game quando o usuario passar o mouse sobre a div. -->
+
+        <a href="./games/mind.html" target="">
+          <div class="stage2-item brain">
+            <img src="./img/brain.png" alt="">
+            <h2>Mente</h2>
+            <p>Jogos que tratam da saúde mental.</p>
+          </div>
+        </a>
+
+        <a href="./games/body.html" target="">
+          <div class="stage2-item corpse">
+            <img src="./img/strong.png" alt="">
+            <h2>Corpo</h2>
+            <p>Jogos que tratam da saúde física.</p>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- Credits. Aqui o site acaba, apenas uma div com um wrapper com nossos nome e RM -->
+
+    <div class="main-credits">
+
+      <div class="credits-wrapper">
+
+        <h4>Feito por:</h4>
+        <p>Carlos Eduardo Gomes Ferreira – RM:81462</p>
+        <p>Igor Andrade Ramos – RM:80268</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
